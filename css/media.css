@@ -1,0 +1,35 @@
+@media (min-width:100px) and (max-width:990px) {  
+    .collapse
+    {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link
+{
+    color: white;
+    text-align: center;
+}
+
+  
+}
+
+@media (min-width:570px) and (max-width:699px)
+{  
+   
+
+}
+
+
+@media (min-width:700px) and (max-width:890px)
+{ 
+  
+}
+
+
+@media (min-width:770px) and (max-width:990px)
+{
+    
+}
+
+@media (min-width:991px) and (max-width:1200px)
+{
+}
