@@ -1,4 +1,5 @@
-let aboutSection = $("#about").offset().top;
+let aboutSection = $(".home_section").offset().top
+console.log(aboutSection);
 
 $(window).scroll(function () {
     let windowOffset = $(window).scrollTop(); // Add parentheses after scrollTop
@@ -7,11 +8,14 @@ $(window).scroll(function () {
         $(".navbar").css({ backgroundColor: "rgba(0,0,0,0.4)" });
         $(".navbar").css({ paddingRight: "30px" });
         $(".custom_link").css({ color: "white" });
+        $(".navbar .navbar-brand").css({ color: "white" });
         $("#iconTop").fadeIn(2000)
     } else {
         $(".navbar").css({ backgroundColor: "white" }); // Reset background color when not scrolled past
         $(".navbar").css({ padding: "0" });
         $(".custom_link").css({ color: "black" });
+        $(".navbar .navbar-brand").css({ color: "black" });
+
         $("#iconTop").fadeOut(2000)
     }
 });

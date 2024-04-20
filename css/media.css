@@ -8,7 +8,10 @@
     color: white;
     text-align: center;
 }
-
+#services .container 
+{
+    background-color: teal;
+}
   
 }
 

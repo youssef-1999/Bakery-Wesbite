@@ -4,7 +4,21 @@
     margin: 0%;
     box-sizing: border-box;
 }
-
+#iconTop
+{
+   bottom: 10%;
+   right: 1%;
+   font-size: 2rem;
+   cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+   color: red;
+}
+.navbar 
+{
+   transition: all 0.5s ;
+}
 .home
 {
 background-image:url("../images/drew-coffman-1872.jpg");
@@ -75,13 +89,6 @@ height: 100vh;
     display: inline;
 
 }
-
-
-
-
-
-/* //////////////////////////////////////// */
-
 
 
 /* ////////footer//////////// */
