@@ -3,15 +3,12 @@
     {
         background-color: rgba(0, 0, 0, 0.9);
     }
-    .navbar-light .navbar-nav .nav-item .nav-link
+    .navbar-light .collapse .navbar-nav .nav-item .nav-link
 {
     color: white;
     text-align: center;
 }
-#services .container 
-{
-    background-color: teal;
-}
+
   
 }
 
